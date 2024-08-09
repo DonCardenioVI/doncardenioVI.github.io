@@ -1,0 +1,223 @@
+@font-face {
+  font-family: main-font;
+  src: url(../fonts/louis_george_cafe.ttf);
+}
+
+@font-face {
+  font-family: header-font;
+  src: url(../fonts/roboto.ttf);
+}
+
+body
+{
+	background-color: #f5f2f3;
+	color: #424242;
+	font-family: main-font;
+	line-height: 1.7em;
+	letter-spacing: 0px;
+	font-weight: 400;
+	font-style: normal;
+	font-variant: normal;
+	font-size: 18px;
+}
+
+h1 
+{
+	color: #424242;
+	text-align: center;
+	font-family: header-font; 
+	font-size: 80px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+	line-height: 81.4px;
+}
+
+h2
+{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+ul
+{
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+	display: inline-block;
+	font-size: 0;
+}
+
+li
+{
+  background-color: #fff;
+  border-bottom-color: #89d;
+  box-shadow: 2px 2px 3px rgba(0,0,0,5%);
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 5px;
+  margin-right: 25px;
+  font-size: 15px;
+  position: relative;
+}
+
+p
+{
+	margin: 0 0 28px;
+	padding-left: 17px;
+	padding-right:	17px;
+}
+
+p > a
+{
+	color: #121212;
+	font-style: italic;
+}
+
+p > a:hover
+{
+	color: #61892F;
+	font-style: italic;
+}
+
+a
+{
+	color: #61892F;
+}
+
+a:hover {
+  	color: #121212;
+}
+		
+.Page
+{
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.PageNav
+{
+	margin: 0 auto;
+	max-width: 455px;
+}
+
+.PageNav a
+{
+	
+	text-decoration: none;
+}
+
+.PageFooter
+{
+	text-align: center;
+}
+
+.PagePicture
+{
+	text-align: center;
+}
+
+.PagePicture img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+.PagePicture h5
+{
+	color: #888;
+	margin: 10px auto 20px auto;
+}
+
+.ContentTopNav
+{
+	margin-top: 25px;
+}
+
+.ContentBottomNav
+{
+	margin-bottom: 25px;
+	text-align: right;
+}
+
+blockquote.left
+{
+  background: #fff;
+  box-shadow: 2px 2px 4px 1px rgb( 0 0 0/7% );
+  padding: 18px 25px;
+  display: flow-root;
+  border: none;
+  border-left: 5px solid #44a9ff;
+  border-left-width: 6px;
+  margin-left: 40px;
+  position: relative;
+  border-radius: 13px;
+  margin-right: 0;
+  padding: 10px 20px;
+}
+
+blockquote.right
+{
+  background: #fff;
+  box-shadow: 2px 2px 4px 1px rgb( 0 0 0/7% );
+  padding: 18px 25px;
+  display: flow-root;
+  border: none;
+  border-right: 5px solid #44a9ff;
+  border-right-width: 6px;
+  margin-right: 40px;
+  position: relative;
+  border-radius: 13px;
+  margin-left: 0;  
+  padding: 10px 20px;
+}
+
+.PageFooter
+{
+	line-height: 6px;
+	margin-top: 25px;
+}
+
+.minorHR
+{
+	width: 85%;
+}
+
+/*
+.PageQuotation p
+{
+	background-color: #474B4F;
+	margin-left: 40px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-left-style: solid;
+	border-width: medium;
+}*/
+
+@media only screen and (max-width: 600px) {
+	.PageFooter
+	{
+	  line-height: 20px;
+	}
+  /*h1 {
+   	line-height: 80px;
+  }
+  
+  p
+  {
+  	margin-left: 20px;
+  	margin-right: 20px;
+  }
+  
+  .PageNav
+  {
+  	position: sticky;
+  	top: 0px;
+  	background-color: #222629;
+  }*/
+}
